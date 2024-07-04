@@ -40,6 +40,7 @@ const Checkout = () => {
         key: "", 
         amount: orderAmount * 100, 
         currency: "INR",
+        // add your own details
         name: "Aditya",
         description: "Reactjs developer",
 
@@ -67,6 +68,8 @@ const Checkout = () => {
             navigate("/oderconfirmation");
           }
         },
+
+      // add your own details
         prefill: {
           name: "Aditya",
           email: "adi@gmail.com",
