@@ -31,8 +31,9 @@ app.use("/api/address",addressRouter);
 app.use("/api/payment",paymentRouter);
 
 mongoose.connect(
-    "mongodb+srv://shindeadi716:IhOdIPgSp0YMqTux@cluster0.9rrj9ve.mongodb.net/",{
-        dbName:"ecommerce"
+    "",  // add your own MongoDB database link for connection
+    {
+        dbName:"" // add your own name of MongoDB databse 
     }
 ).then(()=>console.log(`database is connected`)).catch((err)=>console.log(err));
 
