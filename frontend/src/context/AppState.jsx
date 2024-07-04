@@ -241,11 +241,8 @@ const AppState = (props) => {
       theme: "dark",
       transition: Bounce,
     });
-    //  setCart(api.data.cart);
-    //  setUser("user cart ",api);
   };
 
-  //  Add Shipping Address
   const shippingAddress = async (
     fullName,
     address,
@@ -267,7 +264,6 @@ const AppState = (props) => {
       }
     );
     setReload(!reload);
-    // console.log("remove item from cart ",api);
     toast.success(api.data.message, {
       position: "top-right",
       autoClose: 1500,
