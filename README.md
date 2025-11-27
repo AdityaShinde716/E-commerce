@@ -1,0 +1,1 @@
+Built a full-stack E-commerce application using the MERN stack, featuring backend-driven product management via a secure “Add Product” POST endpoint and integrated payment processing with Razorpay. The platform supports seamless product handling, robust backend operations, and a smooth checkout experience.
